@@ -1,0 +1,97 @@
+/*the font of the page*/
+@font-face {
+    font-family: "myfont";
+    src: url(https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swa);
+}
+
+/*when the screen size is bigger than 400px the back ground will turn lightcyan*/
+@media screen and (min-width: 400px) {
+    body {
+        background-color: lightcyan;
+    }
+}
+/*everything in this page is center aligned*/
+* {
+    text-align: center;
+}
+/*the top 3 fancy line of the page*/
+h1{
+    color: rgb(255, 0, 0);
+    background-color: rgb(225, 255, 0);
+    margin-top: 2vw;
+    margin-bottom: 5vh;
+    padding-top: 1vmax;
+    border-top: black;
+}
+
+h2{
+    color: #00ff00, hsl(12,214,34);
+    margin: 2cm, 20mm, 80q, 7.874in;
+    padding: 5vmin, 5vmin, 5vmin, 5vmin;
+    border-bottom: black;
+    border-width: thick;
+    
+}
+
+h3, p{
+    color: blue;
+    margin: auto;
+    border-color: green;
+    border-radius: 30px;
+}
+
+/*the application of the flexbox*/
+#boxcontainer{
+    margin-top: 3vw;
+    margin-bottom:3vw;
+    text-align: center;
+    position: relative;
+    background-color: black;
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.boxelements{
+    display:flex;
+    background-color:yellow;
+    width: 10vw;
+    height: 10vw;
+    margin: 5vw, 5vw, 5vw, 5vw;
+    align-self: auto;
+}
+.boxelements:hover {
+    background-color: bisque;
+}
+.boxelements:active{
+    box-shadow: 2px 2px 5px #fc894d;
+}
+
+/*the application of the grd*/
+.gridcontainer{
+    display: grid;
+    column-gap: 10px;
+    justify-content: space-around;
+    align-content: space-around;
+}
+#gridelements{
+    background-color: black;
+    display: grid;
+}
+
+/*the application of different selectors*/
+div p{
+    color:brown;
+}
+ul > li {
+    color:orange;
+}
+div + p {
+    background-color: yellow;
+}
+ul ~ p {
+    background-color: lightgreen;
+}
+p.red{
+    color: red;
+}
