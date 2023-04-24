@@ -10,7 +10,7 @@ body {
 /*when the screen size is bigger than 520px the back ground will turn lightcyan*/
 @media screen and (min-width: 520px) {
   body {
-    background-color: lightgreen;
+    background-color: purple;
   }
 }
 /*everything in this page is center aligned*/
@@ -48,12 +48,11 @@ h3, p{
     text-align: center;
     margin-top: 3vw;
     margin-bottom:3vw;
-    text-align: center;
     position: relative;
     background-color: black;
     width: 50vw;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
 }
 .boxelements{
