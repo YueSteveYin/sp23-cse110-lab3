@@ -54,6 +54,7 @@ h3, p{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 .boxelements{
     display:flex;
