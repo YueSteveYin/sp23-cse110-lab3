@@ -16,7 +16,6 @@ body {
 /*everything in this page is center aligned*/
 * {
     text-align: center;
-    justify-content: center;
 }
 /*the top 3 fancy line of the page*/
 h1{
@@ -45,7 +44,7 @@ h3, p{
 }
 
 /*the application of the flexbox*/
-#boxcontainer{
+.boxcontainer{
     margin-top: 3vw;
     margin-bottom:3vw;
     position: relative;
@@ -54,7 +53,6 @@ h3, p{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
 }
 .boxelements{
     display:flex;
