@@ -28,7 +28,8 @@ h1{
 }
 
 h2{
-    color: #00ff00, hsl(12,214,34);
+    color: #00ff00;
+    color: hsl(24, 35, 131);
     margin: 2cm, 20mm, 80q, 7.874in;
     padding: 5vmin, 5vmin, 5vmin, 5vmin;
     border-bottom: black;
