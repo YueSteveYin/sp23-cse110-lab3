@@ -16,7 +16,6 @@ body {
 /*everything in this page is center aligned*/
 * {
     text-align: center;
-    justify-content: center;
 }
 /*the top 3 fancy line of the page*/
 h1{
