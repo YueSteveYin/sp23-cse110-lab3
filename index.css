@@ -7,11 +7,11 @@ body {
   background-color: pink;
 }
 
-/*when the screen size is bigger than 400px the back ground will turn lightcyan*/
-@media screen and (min-width: 400px) {
-    body {
-        background-color: lightcyan;
-    }
+/*when the screen size is bigger than 520px the back ground will turn lightcyan*/
+@media screen and (min-width: 520px) {
+  body {
+    background-color: lightgreen;
+  }
 }
 /*everything in this page is center aligned*/
 * {
