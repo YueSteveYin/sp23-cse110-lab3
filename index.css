@@ -45,7 +45,6 @@ h3, p{
 
 /*the application of the flexbox*/
 #boxcontainer{
-    text-align: center;
     margin-top: 3vw;
     margin-bottom:3vw;
     position: relative;
