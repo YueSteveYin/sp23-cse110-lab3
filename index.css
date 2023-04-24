@@ -7,7 +7,7 @@ body {
   background-color: pink;
 }
 
-/*when the screen size is bigger than 520px the back ground will turn lightcyan*/
+/*when the screen size is bigger than 520px the back ground will turn purple*/
 @media screen and (min-width: 520px) {
   body {
     background-color: purple;
@@ -31,7 +31,7 @@ h2{
     color: #00ff00;
     margin: 2cm, 20mm, 80q, 7.874in;
     padding: 5vmin, 5vmin, 5vmin, 5vmin;
-    border-bottom: black;
+    border-bottom: dashed black;
     border-width: thick;
     
 }
