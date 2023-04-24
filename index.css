@@ -3,6 +3,9 @@
     font-family: "myfont";
     src: url(https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swa);
 }
+body {
+  background-color: pink;
+}
 
 /*when the screen size is bigger than 400px the back ground will turn lightcyan*/
 @media screen and (min-width: 400px) {
